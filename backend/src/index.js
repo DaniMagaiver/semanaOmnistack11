@@ -8,8 +8,9 @@ const routes = require('./routes');
 //determina quem pode acessar a aplicação, no caso de estar em produção o servidor.
 const cors = require('cors');
 
-app.use(cors());
 const app = express();
+
+app.use(cors());
 app.use(express.json());
 
 //indicamos que usaremos as rotas dentro do express.
