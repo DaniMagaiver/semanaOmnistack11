@@ -257,6 +257,27 @@ routes.post('/ongs', async (request, response) => {
 
     return response.json({ id });
 });
+</p>
 
+<h3>3º Dia Front End</h3>
+
+<p>
+//O html da página é montada pelo javascript antes de ser enviado.
+
+//Um arquivo html que está dentro de um javascript é um JSX.
+
+//É necessário importar o React em todas as páginas que utilizamos o JSX
+
+//Um component em react sempre deve começar com letra maiúscula.
+
+//Os componentes possuem uma série de propriedades que podem ser acessadas.
+
+//Toda vez que um estado é modificado um componente é novamente renderizado na tela.
+
+ //Sempre que precisamos guardar e sobrepor valores em um componente utilizamos um estado ao invés de uma variável comum.
+
+ //No react o valor de um state é imutável, por isso precisamos sobrepor este valor.
+
+//Use state retorna um array com [valor, valorAtualizado]
 
 </p>
